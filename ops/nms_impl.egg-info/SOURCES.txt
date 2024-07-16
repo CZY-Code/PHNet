@@ -1,0 +1,13 @@
+__init__.py
+nms.py
+setup.py
+./csrc/nms.cpp
+./csrc/nms_kernel.cu
+csrc/nms.cpp
+csrc/nms_kernel.cu
+nms_impl.egg-info/PKG-INFO
+nms_impl.egg-info/PKG-INFO~remove ops
+nms_impl.egg-info/SOURCES.txt
+nms_impl.egg-info/dependency_links.txt
+nms_impl.egg-info/not-zip-safe
+nms_impl.egg-info/top_level.txt
