@@ -1,0 +1,4 @@
+# ninja log v5
+0	2669	1662989358496772234	/home/chengzy/MMA-TR-Net/libs/models/SeqFormer/ops/build/temp.linux-x86_64-3.6/home/chengzy/MMA-TR-Net/libs/models/SeqFormer/ops/src/cpu/ms_deform_attn_cpu.o	eb4d4c7c8251d68d
+0	9266	1662989365088645506	/home/chengzy/MMA-TR-Net/libs/models/SeqFormer/ops/build/temp.linux-x86_64-3.6/home/chengzy/MMA-TR-Net/libs/models/SeqFormer/ops/src/cuda/ms_deform_attn_cuda.o	ab60f976acd7d45c
+0	15051	1662989370868534321	/home/chengzy/MMA-TR-Net/libs/models/SeqFormer/ops/build/temp.linux-x86_64-3.6/home/chengzy/MMA-TR-Net/libs/models/SeqFormer/ops/src/vision.o	e9d657dcbc551907
