@@ -19,9 +19,9 @@ $ pip install -r requirements.txt
 Pytorch can be installed on [here](https://pytorch.org/get-started/previous-versions/). Other versions might be available as well.
 
 ### Dataset
-Download [OpenLane-V](https://github.com/dongkwonjin/RVLD) and [VIL-100](https://github.com/yujun0-0/MMA-Net) dataset.
-    
-### Directory structure                  
+1. Download [OpenLane-V](https://github.com/dongkwonjin/RVLD) and [VIL-100](https://github.com/yujun0-0/MMA-Net) dataset.
+2. Unzip and move dataset into ROOT/dataset
+#### Directory structure of dataset          
     ├── OpenLane                # dataset directory
     │   ├── images              # Original images
     │   ├── OpenLane-V
@@ -33,6 +33,7 @@ Download [OpenLane-V](https://github.com/dongkwonjin/RVLD) and [VIL-100](https:/
     |   └── ...
     
 ### Train and Test
+0. Modify the settings in option files in `./options/option*.py`
 1. For OpenLane-V dataset:
 ```
 $ torchrun --nproc_per_node=4 trainOL.py
