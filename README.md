@@ -22,14 +22,14 @@ Pytorch can be installed on [here](https://pytorch.org/get-started/previous-vers
 1. Download [OpenLane-V](https://github.com/dongkwonjin/RVLD) and [VIL-100](https://github.com/yujun0-0/MMA-Net) dataset.
 2. Unzip and move dataset into ROOT/dataset
 #### Directory structure of dataset          
-    ├── OpenLane                # dataset directory
-    │   ├── images              # Original images
+    ├── OpenLane                
+    │   ├── images              
     │   ├── OpenLane-V
-    |   |   ├── label           # lane labels formatted into pickle files
-    |   |   ├── list            # training/test video datalists
+    |   |   ├── label          
+    |   |   ├── list            
     ├── VIL-100
-    │   ├── JPEGImages          # Original images
-    │   ├── Annotations         # We do not use this directory
+    │   ├── JPEGImages          
+    │   ├── Annotations
     |   └── ...
     
 ### Train and Test
