@@ -16,6 +16,11 @@ $ git clone https://github.com/CZY-Code/PHNet.git
 $ conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=10.2 -c pytorch
 $ pip install -r requirements.txt
 ```
+3. Install NMS ops
+```
+$ cd ./libs/ops
+$ python setup.py build develop
+```
 Pytorch can be installed on [here](https://pytorch.org/get-started/previous-versions/). Other versions might be available as well.
 
 ### Dataset
@@ -44,6 +49,12 @@ $ python testOLV3.py
 $ torchrun --nproc_per_node=4 trainVIL.py
 $ python testVIL.py
 ```
+### Weights
+Weight for OpenLane-V: [here](通过网盘分享的文件：50.pth.tar
+链接: https://pan.baidu.com/s/15RTib-EKtDbYn7VFi13MHA?pwd=b4ac 提取码: b4ac).
+
+Weight for VIL-100: [here](通过网盘分享的文件：50.pth.tar
+链接: https://pan.baidu.com/s/1LBEEQMBKZb8sBeSZYOUTdg?pwd=jkba 提取码: jkba).
 
 ### Evaluation 
 ```
