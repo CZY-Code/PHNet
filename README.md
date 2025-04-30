@@ -23,12 +23,12 @@ $ python setup.py build develop
 ```
 4. Install  evaluation tools:
 ```
-sudo ln -s /usr/local/include/opencv4/opencv2 /usr/local/include/opencv2
-cd evaluation/culane
-mkdir build && cd build
-cmake ..
-make
-mv culane_evaluator ../
+$ sudo ln -s /usr/local/include/opencv4/opencv2 /usr/local/include/opencv2$ 
+$ cd evaluation/culane
+$ mkdir build && cd build
+$ cmake ..
+$ make
+$ mv culane_evaluator ../
 ```
 
 Pytorch can be installed on [here](https://pytorch.org/get-started/previous-versions/). Other versions might be available as well.
